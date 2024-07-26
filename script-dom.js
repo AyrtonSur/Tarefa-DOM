@@ -42,7 +42,6 @@ function ShowMessage(input){
     console.log("Enviado")
 
 }
-var num = 0
 
 var input = document.getElementById("input-message")
 var button = document.getElementById("send-message")
