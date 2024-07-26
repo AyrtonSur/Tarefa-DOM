@@ -36,7 +36,7 @@ body {
 }
 
 .parent-box{
-    flex: 1;
+    height: calc(88% - 2px);
     width: 100%;
     display: flex;
     flex-flow: wrap column;
@@ -69,6 +69,11 @@ body {
 .message-box {
     height: 70%;
     width: 100%;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
 }
 
 .message-sender button {
@@ -83,4 +88,12 @@ body {
 .message-sender button:hover {
     background-color: rgb(0, 162, 255);
     border: solid 1px rgb(0, 162, 255);
+}
+
+.message-div {
+    width: 80%;
+    background-color: rgb(231, 231, 231);
+    border: solid 1px rgb(0, 0, 0);
+    height: 10%;
+    margin: 10px;
 }
