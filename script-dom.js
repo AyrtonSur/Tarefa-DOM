@@ -45,6 +45,7 @@ function ShowMessage(input){
     var divBox = document.getElementById("message-box")
     divBox.append(div)
     console.log("Enviado")
+    input.value = ""
 
 }
 
