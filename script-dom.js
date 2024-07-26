@@ -1,3 +1,8 @@
+function Edit(paragrafo){
+    text = prompt("Digite o novo texto:")
+    paragrafo.innerText = text
+}
+
 function ShowMessage(input){
     //criação de divs
     var div = document.createElement("div")
@@ -27,7 +32,7 @@ function ShowMessage(input){
     edit.classList.add("edit")
     del.classList.add("del")
 
-    edit.addEventListener("click", () => {divBox.removeChild(div)})
+    edit.addEventListener("click", () => Edit(paragrafo))
     del.addEventListener("click", () => {divBox.removeChild(div)})
 
     divMensagem.append(paragrafo)
