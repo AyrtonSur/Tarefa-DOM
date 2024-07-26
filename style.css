@@ -1,0 +1,41 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-pagina {
+    width: 50%;
+    height: 50%;
+    border: solid 2px rgb(0, 0, 0);
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+}
+
+.title-box {
+    background-color: lightgray;
+    border-bottom: solid 2px rgb(0, 0, 0);
+    width: 100%;
+    height: 12%;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+}
+
+.title-box p {
+    color: rgb(0, 0, 0);
+    font-size: 1vmax;
+}
+
+.parent-box{
+    flex: 1;
+    display: flex;
+}
